@@ -6,3 +6,46 @@
   padding: 0;
   border: 0;
 }
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  background-color: #222222;
+}
+.notes {
+  background-color: #ffe;
+  margin: 20px;
+  height: 400px;
+  width: 400px;
+}
+.tools {
+  background-color: #7bdaf3;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.tool-btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.wrapper {
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+.notes textarea {
+  height: 100%;
+  width: 100%;
+  font-family: inherit;
+  border: none;
+  padding: 5px;
+}
+.notes textarea:focus {
+  outline: none;
+}
